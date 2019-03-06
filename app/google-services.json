@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "283242818033",
+    "firebase_url": "https://frebse-3a526.firebaseio.com",
+    "project_id": "frebse-3a526",
+    "storage_bucket": "frebse-3a526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283242818033:android:bf288f222f62b306",
+        "android_client_info": {
+          "package_name": "com.worldtechq.frebse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283242818033-eug0bg9u65k7r54dj83vs8fv8v6abudf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRTB94L_l6jM4woRGpVM13JS7Z70lg0lY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6EAF8"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/chooseimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:textColor="#F8E7E7"
+        android:background="@drawable/circle"
+        android:text="Select"
+        android:textAllCaps="true"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/filenmae"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chooseimg"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/chooseimg"
+        android:hint="Enter file name" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imv"
+        android:layout_below="@+id/filenmae"
+        android:layout_above="@+id/pbar"
+        android:layout_marginTop="16dp"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="16dp"
+        android:id="@+id/pbar"
+        android:layout_above="@+id/upload"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        android:textStyle="normal"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textColor="#F8E7E7"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/circle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="67dp"
+
+        tools:ignore="RtlCompat" />
+
+
+</RelativeLayout>
