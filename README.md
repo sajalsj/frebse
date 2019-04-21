@@ -5,8 +5,6 @@ link your project to firebase...now use its all services.
 
 this is a simple app for uploading and retrieving images from firebase.
 
-![screenshot1](https://user-images.githubusercontent.com/38429893/56468548-d592c000-644b-11e9-8fbc-c36879b24894.png)
+![screenshot1](https://user-images.githubusercontent.com/38429893/56468610-5ea9f700-644c-11e9-9edc-720c8f2a6732.png)
 
-
-![screenshot2](https://user-images.githubusercontent.com/38429893/56468378-1a692780-6449-11e9-93c1-c86a8c879e2b.png)
-
+![screenshot2](https://user-images.githubusercontent.com/38429893/56468614-6ff30380-644c-11e9-9cde-9bfefea53627.png)
